@@ -25,7 +25,7 @@ Model View Controller
 - Handle UI only events, for example: toggling the menu, displaying scoreboard
 - 2. Store
 - Responsible for getting state, saving state and emitting state change events
--3. App (Coontroller)
+- 3. App (Coontroller)
 - Orchestrates between state.js and view.js
 
 
