@@ -22,11 +22,11 @@ Model View Controller
 - commonly used for developing user interfaces
 - When building the application, we have 3 separate concerns,
 - 1. View
-- Handle UI only events like toggling the menu
+- Handle UI only events, for example: toggling the menu, displaying scoreboard
 - 2. Store
 - Responsible for getting state, saving state and emitting state change events
 -3. App (Coontroller)
-- Orchestrates between state and view
+- Orchestrates between state.js and view.js
 
 
 
