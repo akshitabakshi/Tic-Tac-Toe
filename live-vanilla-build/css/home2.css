@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border: none;
+}
+html,
+body {
+  height: 100%;
+  background-color: #c85314;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.heading {
+  color: white; /* Set the font color */
+  font-weight: bold;
+  margin-bottom: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Luckiest Guy";
+  font-size: xx-large;
+}
+.subheading {
+  color: white; /* Set the font color */
+  font-weight: bold;
+  margin-bottom: 100px;
+  align-items: center;
+  font-family: "Luckiest Guy";
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  font-size: xx-large;
+}
+
+.menu-btn {
+  position: absolute; /* Set the button position to absolute */
+  top: 50%; /* Position the top of the button at the center of the viewport */
+  left: 50%; /* Position the left side of the button at the center of the viewport */
+  transform: translate(-50%, 50%);
+  background-color: darkorange; /* set the background color */
+  font-weight: bold;
+  color: black; /* set the font color */
+  font-size: 24px; /* set the font size */
+  border-radius: 10px; /* round the corners of the button */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  height: 100px;
+  width: 200px;
+  margin-bottom: 10px;
+  font-family: "Luckiest Guy";
+}
+
+/*isplay: block;
+  margin: auto;
+  margin-top: 250px;
+  height: 100px;
+  width: 200px;
+  align-items: center;
+  border-radius: 10px;
+  background-color: lightblue; /* set the background color 
+  color: darkolivegreen; /* set the font color 
+  font-size: 28px; /* set the font size 
+  border-radius: 10px; /* round the corners of the button 
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+*/

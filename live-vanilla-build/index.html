@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script
+      src="https://kit.fontawesome.com/7b75559beb.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Vanilla JS T3</title>
+  </head>
+  <body>
+    <main>
+      <div class="grid" data-id="grid">
+        <div class="turn" data-id="turn">
+          <i class="fa-solid fa-x yellow"></i>
+          <p>&</p>
+          <i class="fa-solid fa-o yellow"></i>
+        </div>
+        <div class="menu" data-id="menu">
+          <button class="menu-btn" data-id="menu-btn">
+            Options
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+
+          <div class="items border hidden" data-id="menuItems">
+            <button data-id="resetBtn">Reset</button>
+            <button data-id="newroundBtn">New Round</button>
+          </div>
+        </div>
+        <div id="1" class="square shadow" data-id="square"></div>
+        <div id="2" class="square shadow" data-id="square"></div>
+        <div id="3" class="square shadow" data-id="square"></div>
+        <div id="4" class="square shadow" data-id="square"></div>
+        <div id="5" class="square shadow" data-id="square"></div>
+        <div id="6" class="square shadow" data-id="square"></div>
+        <div id="7" class="square shadow" data-id="square"></div>
+        <div id="8" class="square shadow" data-id="square"></div>
+        <div id="9" class="square shadow" data-id="square"></div>
+        <div class="score shadow" style="background-color: var(--yellow)">
+          <p>Player 1</p>
+          <span data-id="p1wins">0</span>
+        </div>
+        <div class="score shadow" style="background-color: var(--light-gray)">
+          <p>Ties</p>
+          <span data-id="ties">0</span>
+        </div>
+        <div class="score shadow" style="background-color: var(--yellow)">
+          <p>Player 2</p>
+          <span data-id="p2wins">0</span>
+        </div>
+      </div>
+    </main>
+
+    <div class="modal hidden" data-id="modal">
+      <div class="modal-contents">
+        <p data-id="modal-text">Player 1 wins!</p>
+        <button data-id="modal-btn">Play again</button>
+      </div>
+    </div>
+    <script src="js/app.js" type="module"></script>
+  </body>
+</html>
