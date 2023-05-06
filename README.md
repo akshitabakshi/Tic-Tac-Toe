@@ -21,12 +21,12 @@ Inspired by freecodecamps video on the MVC Architectural pattern: https://www.yo
 Model View Controller
 - commonly used for developing user interfaces
 - When building the application, we have 3 separate concerns,
---1. View
---Handle UI only events like toggling the menu
---2. Store
--- Responsible for getting state, saving state and emitting state change events
---3. App (Coontroller)
--- Orchestrates between state and view
+- 1. View
+- Handle UI only events like toggling the menu
+- 2. Store
+- Responsible for getting state, saving state and emitting state change events
+-3. App (Coontroller)
+- Orchestrates between state and view
 
 
 
